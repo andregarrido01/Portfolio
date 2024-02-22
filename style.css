@@ -1,0 +1,29 @@
+html,
+body {
+    background-color: rgb(59, 59, 63);
+    color: white;
+}
+
+#navigation-items {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: grid;
+    grid: repeat(1, auto) / repeat(3, auto);
+    font-size: 140%;
+}
+
+#navigation-items li a {
+    text-decoration: none;
+    color: white;
+}
+
+#projects-items {
+    display: grid;
+    grid: repeat(2, auto) / repeat(2, auto);
+    size: 50px;
+}
+
+#projects-items div {
+    background-color: aquamarine;
+}
